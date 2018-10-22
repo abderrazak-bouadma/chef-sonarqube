@@ -1,0 +1,15 @@
+DEPENDENCIES
+  lhg_sonar_qube
+    path: .
+    metadata: true
+
+GRAPH
+  homebrew (5.0.8)
+  java (3.1.0)
+    homebrew (>= 0.0.0)
+    windows (>= 0.0.0)
+  lhg_sonar_qube (0.0.1)
+    java (>= 0.0.0)
+    sonarqube (>= 0.0.0)
+  sonarqube (0.3.3)
+  windows (5.1.3)
